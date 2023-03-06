@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="range">
+          <div>
+            <label for="storage" id="storage_label">Storage: 0</label>
+            <input
+              type="range"
+              id="storage"
+              value="0"
+              name="storage"
+              min="0"
+              max="1000"
+              step="1"
+            />
+          </div>
+          <div>
+            <label for="transfer" id="transfer_label">Transfer: 0</label>
+            <input
+              type="range"
+              id="transfer"
+              value="0"
+              name="transfer"
+              min="0"
+              max="1000"
+              step="1"
+            />
+          </div>
+        </div>
+        <div class="services-wrapper">
+          <div class="services">
+            <div class="service" id="backblaze"></div>
+            <div class="service" id="bunny"></div>
+            <div class="service" id="scaleway"></div>
+            <div class="service" id="vultr"></div>
+          </div>
+          <div class="logo">
+            <img src="./assets/backblaze.png" width="80" alt="backblaze.com" />
+            <img src="./assets/bunny.svg" width="80" alt="bunny.net" />
+            <img src="./assets/scaleway.svg" width="80" alt="scaleway.com" />
+            <img src="./assets/vultr.svg" width="80" alt="vultr.com" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/calculator.js"></script>
+  </body>
+</html>
