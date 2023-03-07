@@ -88,6 +88,10 @@
   margin-top: 15px;
 }
 
+.storage-form input:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
   .services-wrapper {
     transform: rotate(90deg);
@@ -133,7 +137,12 @@
 
   .storage-form > label {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    margin-top: 3px;
+  }
+
+  .storage-form > label:first-child {
+    margin-right: 3px;
   }
 
   div.with-form {
