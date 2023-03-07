@@ -44,10 +44,54 @@
             <div class="service" id="vultr"></div>
           </div>
           <div class="logo">
-            <img src="./assets/backblaze.png" width="80" alt="backblaze.com" />
-            <img src="./assets/bunny.svg" width="80" alt="bunny.net" />
-            <img src="./assets/scaleway.svg" width="80" alt="scaleway.com" />
-            <img src="./assets/vultr.svg" width="80" alt="vultr.com" />
+            <div class="img">
+              <img
+                src="./assets/backblaze.png"
+                width="80"
+                alt="backblaze.com"
+              />
+            </div>
+            <div class="img with-form">
+              <img src="./assets/bunny.svg" width="80" alt="bunny.net" />
+              <form class="storage-form">
+                <label
+                  >HDD
+                  <input
+                    type="radio"
+                    value="0.01"
+                    name="bunny"
+                    id="hdd"
+                    checked
+                  />
+                </label>
+                <label
+                  >SSD
+                  <input type="radio" value="0.02" name="bunny" id="ssd" />
+                </label>
+              </form>
+            </div>
+            <div class="img with-form">
+              <img src="./assets/scaleway.svg" width="80" alt="scaleway.com" />
+              <form class="storage-form">
+                <label
+                  >Multi
+                  <input type="radio" value="0.06" name="scaleway" id="multi" />
+                </label>
+                <label
+                  >Single
+                  <input
+                    type="radio"
+                    value="0.03"
+                    name="scaleway"
+                    id="single"
+                    checked
+                  />
+                </label>
+              </form>
+            </div>
+            <div class="img">
+              <img src="./assets/vultr.svg" width="80" alt="vultr.com" />
+            </div>
           </div>
         </div>
       </div>
