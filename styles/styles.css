@@ -68,53 +68,17 @@
   background-color: var(--red);
 }
 
-/* #backblaze::before {
-  content: attr(amount);
-  font-size: 38px;
-  position: absolute;
-  top: -48px;
-  left: 50%;
-  transform: translateX(-50%);
-} */
-
 #bunny.lowest {
   background-color: var(--orange);
 }
-
-/* #bunny::before {
-  content: attr(amount);
-  font-size: 38px;
-  position: absolute;
-  top: -48px;
-  left: 50%;
-  transform: translateX(-50%);
-} */
 
 #scaleway.lowest {
   background-color: var(--perple);
 }
 
-/* #scaleway::before {
-  content: attr(amount);
-  font-size: 38px;
-  position: absolute;
-  top: -48px;
-  left: 50%;
-  transform: translateX(-50%);
-} */
-
 #vultr.lowest {
   background-color: var(--blue);
 }
-
-/* #vultr::before {
-  content: attr(amount);
-  font-size: 38px;
-  position: absolute;
-  top: -48px;
-  left: 50%;
-  transform: translateX(-50%);
-} */
 
 .logo {
   width: 100%;
@@ -127,6 +91,9 @@
 @media screen and (max-width: 767px) {
   .services-wrapper {
     transform: rotate(90deg);
+    width: 100%;
+    position: relative;
+    left: -65px;
   }
 
   .services {
@@ -140,6 +107,7 @@
   .services > div::before {
     transform: rotate(-90deg);
     top: -70px;
+    font-size: 24px;
   }
 
   .logo {
